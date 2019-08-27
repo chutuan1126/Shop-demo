@@ -1,0 +1,39 @@
+.checkout-item {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgrey;
+}
+
+.checkout-item .checkout-block {
+  text-transform: capitalize;
+  width: 23%;
+}
+
+.checkout-item .checkout-block .checkout-block-image {
+  display: inline;
+  padding: 5px;
+  color: blue;
+  cursor: pointer;
+}
+
+.checkout-item .checkout-block:last-child {
+  width: 8%;
+}
+
+.checkout-item .total {
+  margin-top: 30px;
+  margin-left: auto;
+  font-size: 36px;
+}
+
+.checkout-item .checkout-block.remove {
+  cursor: pointer;
+}
+
+.checkout-item .checkout-block.remove:hover img {
+  opacity: 0.8;
+}

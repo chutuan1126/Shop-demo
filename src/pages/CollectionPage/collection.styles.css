@@ -1,0 +1,24 @@
+.collection-page {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.collection-page .title {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.collection-page .collection-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.not-thing-here {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
